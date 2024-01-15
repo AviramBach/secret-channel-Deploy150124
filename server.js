@@ -17,12 +17,12 @@ const server = http.createServer(app)
 // Express App Config
 app.use(cookieParser())
 app.use(express.json())
-app.use(express.static('dist'))
+app.use(express.static('dist-copy'))
 
 
 if (process.env.NODE_ENV === 'production') {
     // Express serve static files on production environment
-    app.use(express.static(path.resolve(__dirname, 'dist')))
+    app.use(express.static(path.resolve(__dirname, 'dist-copy')))
     console.log('__dirname: ', __dirname)
 } else {
     // Configuring CORS
