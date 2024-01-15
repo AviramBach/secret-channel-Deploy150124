@@ -9,6 +9,6 @@
 // }
 
 export default {
-    dbURL: 'mongodb+srv://bach2142:<e=mc2=albert>@cluster0.kfjcfff.mongodb.net/',
+    dbURL: 'mongodb+srv://bach2142:codingisacademy2023@cluster0.kfjcfff.mongodb.net/',
     dbName: 'secret-channel',
 }
